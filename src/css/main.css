@@ -146,3 +146,32 @@ font-weight: 500;
 font-size: 20px;
  }
 }
+
+/* About */
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 695px;
+}
+.about-wrapper{
+    width: 340px;
+}
+.span{
+font-weight: 500;
+    font-size: 18px;
+}
+@media only screen and (min-width: 1440px) {
+.about-section {
+        background-image: url("/img/about/desk.png");
+height: 482px;
+    }
+
+    .about-wrapper {
+        width: 540px;
+    }
+.span {
+font-size: 20px;
+}
+}
